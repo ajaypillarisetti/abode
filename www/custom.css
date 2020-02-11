@@ -1,0 +1,137 @@
+.shiny-output-error{visibility: hidden;}
+#hiddenbutton{display: none;}
+#amb{margin-top:-10px;}
+a#downloadThresholdCSV{background-color: transparent; border:none; float:right;}
+a#downloadsdCSV{background-color: transparent; border:none; float:right;}
+a#downloadambCSV{background-color: transparent; border:none; float:right;}
+a#downloadMerged{background-color: transparent; border:none; float:right;}
+#filetable{width:90%; overflow-x:scroll;}
+#sdThresholdPlotDL{color:black; float:right; margin-top:-15px; position: absolute; right: 0px; margin-right: 10px; z-index: 9999;}
+#thresholdPlotDL{color:black; float:right; margin-top:-15px; position: absolute; right: 0px; margin-right: 10px; z-index: 9999;}
+#ambthresholdPlotDL{color:black; float:right; margin-top:-15px; position: absolute; right: 0px; margin-right: 10px; z-index: 9999;}
+.box{margin-bottom:15px;}
+.dataTables_info{display: none;}
+
+.shiny-progress .progress-text {
+  position: absolute;
+  right: 10px;
+  height: 48px;
+  background-color: #eef8ff;
+  margin: 0px;
+  padding: 2px 3px;
+  opacity: 0.85;
+}
+
+.shiny-progress .progress-text .progress-message {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.shiny-progress .progress-text .progress-detail {
+  padding: 0px 3px;
+  font-size: 80%;
+  display:block;
+}
+
+.nav-tabs-custom>.nav-tabs>li.header{font-size:14px!important; font-weight: bold;}
+
+#shiny-notification-panel{
+	position: fixed;
+	top: 0;
+	background-color: rgba(255, 255, 255, 0.80);
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.shiny-notification{
+	background-color: #e8e8e8;
+	color: #333;
+	opacity: 1!important;
+	padding: 12px 9px 12px 12px;
+	margin: 0px!important; 
+	border: none!important;
+	border-radius: 3px!important;
+	position: relative;
+	top: 50%;
+	width: 50%;
+	left: 25%;
+}
+
+.shiny-notification-close{display: none; visibility: hidden;}
+
+div.dt-buttons{
+	padding-top:4px;
+	float:right!important;
+}
+
+.box-title{font-weight: 800;}
+
+.main-header .logo{font-weight: 500; letter-spacing: 1px;}
+
+a.dt-button{
+	border-radius: 10px!important;
+	padding: 0.25em 0.75em!important;
+	background-image: none!important;
+	background-color: white!important;
+	margin-top:5px!important;
+}
+
+label.control-label[for='countrySelect-selectized']{font-weight:500; color:black;}
+
+.skin-blue .sidebar a{color:black;}
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper{background-color: #eaeff1;}
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a{background-color: #dde5e8; color:black;}
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>a{background-color: #cfdade; color:black;}
+
+.content-wrapper{background-color: #eff2f7!important;}
+
+#shiny-tab-overview p{font-size:1.1em;}
+
+.sidebar-menu>li{font-size:1.1em;}
+.fa{margin-right:8px;}
+
+.box.box-solid.box-primary>.box-header {
+	color: black;
+	background: white!important;
+	background-color: white!important;
+	border-bottom: 1px dotted #3c8dbc;
+}
+
+.dataTables_filter{display: none;}
+
+.nav-tabs-custom>.nav-tabs>li.active{font-weight: 800;}
+
+#greenify
+.skin-blue .main-header .logo:hover {background-color: #205922!important;}
+.skin-blue .main-header .logo {background-color: #205922!important;}
+.sidebar-toggle:hover{background-color:#2a752d!important;;}
+.skin-blue .main-header .navbar {background-color: #2a752d;}
+.skin-blue .sidebar-menu>li.active>a {border-left-color: #205922;}
+.skin-blue .sidebar-menu>li:hover>a {border-left-color: #2a752d;}
+
+.box.box-info{border-top-color:#205922;}
+.box.box-solid.box-primary{border: 1px solid #2a752d;}
+.nav-tabs-custom>.nav-tabs>li.active{border-top-color: #2a752d;}
+
+.irs-bar-edge{background:#2a752d;}
+.irs-bar{background:#2a752d;}
+.irs-single{background: #2a752d}
+
+.selectize-input.focus{
+	border-color:#2a752d;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(42, 117, 45, 0.6)!important;
+}
+
+.noUi-connect{background: #2a752d!important;}
+
+.form-control:focus{border-color: #2a752d;}
+
+.tabPanelTitle{margin-left:10px;}
+
+.nav-tabs-custom>.nav-tabs>li>a{opacity:0.24;}
+.nav-tabs-custom>.nav-tabs>li.active>a{opacity:1;}
+.nav-tabs-custom>.nav-tabs>li>a:hover{opacity:0.75;}
+.nav-tabs-custom>.nav-tabs>li.active>a:hover{opacity:1;}
